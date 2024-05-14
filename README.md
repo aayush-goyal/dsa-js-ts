@@ -15,6 +15,7 @@ The repository is structured as follows:
 * `backtracking`
 * `dynamic-programming`
 * `graphs`
+* `linked-list`
 * `queue`
 * `search`
 * `sort`

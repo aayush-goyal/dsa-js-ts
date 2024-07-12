@@ -1,5 +1,6 @@
 {
     "name": "dsa-js-ts",
+    "type": "module",
     "version": "1.0.0",
     "repository": "https://github.com/aayush-goyal/dsa-js-ts.git",
     "author": "Aayush Goyal <aayushgoyal.mps@gmail.com>",
@@ -16,5 +17,8 @@
         "prettier": "^3.2.4",
         "tsx": "^4.7.2",
         "typescript": "^5.4.4"
+    },
+    "dependencies": {
+        "ts-node": "^10.9.2"
     }
 }

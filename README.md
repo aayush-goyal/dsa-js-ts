@@ -19,7 +19,7 @@ The repository is structured as follows:
 * `queue`
 * `search`
 * `sort`
-* `tree`
+* `trees`
 * `stack`
 * `other` (for miscellaneous topics)
 

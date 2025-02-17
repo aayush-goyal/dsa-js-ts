@@ -1,11 +1,11 @@
 /**
  * This file contains implementation of a Singly Linked List.
  *
- * @version 1.0.0
+ * @version 1.0.1
  * @author Aayush Goyal
  * @created 2025-02-17
- * @modifier
- * @modified
+ * @modifier Aayush Goyal
+ * @modified 2025-02-18
  */
 interface LinkedListNode<T> {
     value: T;
@@ -34,7 +34,7 @@ class SinglyLinkedList<T> {
 
     pushAtHead(node: LinkedListNode<T>) {
         node.next = this.head;
-        this.head = node;  
+        this.head = node;
     }
 
     pushAtMiddle(node: LinkedListNode<T>, position: number) {
@@ -46,7 +46,7 @@ class SinglyLinkedList<T> {
 
         let tempNode = currNode.next!;
         currNode.next = node;
-        node.next = tempNode;        
+        node.next = tempNode;
     }
 
     pushAtEnd(node: LinkedListNode<T>) {
@@ -69,7 +69,7 @@ class SinglyLinkedList<T> {
             currNode = currNode.next!;
         }
 
-        currNode.next = currNode.next?.next!;           
+        currNode.next = currNode.next?.next!;
     }
 
     popFromEnd() {

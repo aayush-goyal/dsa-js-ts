@@ -81,3 +81,5 @@ class SinglyLinkedList<T> {
         currNode.next= null;
     }
 }
+
+export { LinkedListNode };
